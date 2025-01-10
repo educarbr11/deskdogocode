@@ -38,7 +38,10 @@
         "endpoints": [
           ""
         ],
-        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVGQzFFNjVDMjY3MDY1RDgKUldUWVpYQW1YT2JCN3hpVHp3QlFPMU4vK0w3dkxjemt2a25xcENpVzg1SVVTTTNENEJjRnBuYzgK"
+        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVGQzFFNjVDMjY3MDY1RDgKUldUWVpYQW1YT2JCN3hpVHp3QlFPMU4vK0w3dkxjemt2a25xcENpVzg1SVVTTTNENEJjRnBuYzgK",
+        "windows": {
+        "installMode": "passive"
+        }
       }
     }
 }
