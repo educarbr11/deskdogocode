@@ -21,7 +21,7 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["msi", "nsis", "appimage"],
+    "targets": ["appimage"],
     "createUpdaterArtifacts": true,
     "icon": [
       "icons/32x32.png",
@@ -35,8 +35,10 @@
       "updater": {
         "active": true,
         "dialog": true,
-        "endpoints": [""],
-        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEUyNTNBMDM3QTgzRDRBNkIKUldSclNqMm9ONkJUNGlGRXYzNmhVWjBXeW94M1VtODBLdDdFVlVxZXpScXZZMTVoZCs5VXlTVWwK"
+        "endpoints": [
+          ""
+        ],
+        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVGQzFFNjVDMjY3MDY1RDgKUldUWVpYQW1YT2JCN3hpVHp3QlFPMU4vK0w3dkxjemt2a25xcENpVzg1SVVTTTNENEJjRnBuYzgK"
       }
     }
 }
