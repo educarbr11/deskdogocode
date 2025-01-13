@@ -21,7 +21,7 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["appimage"],
+    "targets": ["msi", "nsis","appimage"],
     "createUpdaterArtifacts": true,
     "icon": [
       "icons/32x32.png",
@@ -36,7 +36,7 @@
         "active": true,
         "dialog": true,
         "endpoints": [
-          "https://gist.githubusercontent.com/educarbr11/77efaa9d52545930f895004efcbc8e5a/raw/9086e05afdfe3e53829f12c08818f9c3e2ce64d4/latest.json"
+          "https://gist.githubusercontent.com/educarbr11/77efaa9d52545930f895004efcbc8e5a/raw/abf4c3e3a53386e4521f07b2a2be0940827b9e01/latest.json"
         ],
         "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVGQzFFNjVDMjY3MDY1RDgKUldUWVpYQW1YT2JCN3hpVHp3QlFPMU4vK0w3dkxjemt2a25xcENpVzg1SVVTTTNENEJjRnBuYzgK",
         "windows": {
