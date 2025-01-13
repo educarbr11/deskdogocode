@@ -36,11 +36,11 @@
         "active": true,
         "dialog": true,
         "endpoints": [
-          "https://gist.githubusercontent.com/educarbr11/77efaa9d52545930f895004efcbc8e5a/raw/abf4c3e3a53386e4521f07b2a2be0940827b9e01/latest.json"
+          "https://gist.githubusercontent.com/educarbr11/77efaa9d52545930f895004efcbc8e5a/raw/33a9ce215953286233f357a0c6b5dafa178be797/latest.json"
         ],
-        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVGQzFFNjVDMjY3MDY1RDgKUldUWVpYQW1YT2JCN3hpVHp3QlFPMU4vK0w3dkxjemt2a25xcENpVzg1SVVTTTNENEJjRnBuYzgK",
+        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDY2NTZDNDM4RUVGMDU4REIKUldUYldQRHVPTVJXWnVBUDRoZlliajRtWnl6QzhUMjRXWkY4ZGcyUHZJRm5WUVRtR3o2Wm5DUk4K",
         "windows": {
-        "installMode": "passive"
+        "installMode": "passive"  
         }
       }
     }
