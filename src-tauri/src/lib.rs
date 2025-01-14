@@ -22,7 +22,7 @@ async fn update(app: tauri::AppHandle) -> tauri_plugin_updater::Result<()> {
       .download_and_install(
         |chunk_length, content_length| {
           downloaded += chunk_length;
-          println!("download {downloaded} de {content_length:?}");
+          println!("downloaded {downloaded} from {content_length:?}");
         },
         || {
           println!("download finalizado");
