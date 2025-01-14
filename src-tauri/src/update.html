@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atualização</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    progress {
+      width: 100%;
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Atualização Disponível</h1>
+  <p>Estamos baixando a última versão do aplicativo.</p>
+  <progress id="progress-bar" value="0" max="100"></progress>
+  <p id="status">Aguardando...</p>
+
+  <script>
+    const progressBar = document.getElementById('progress-bar');
+    const status = document.getElementById('status');
+
+    window.__TAURI__.event.listen('download-progress', ({ payload }) => {
+      const [downloaded, total] = payload;
+      const progress = (downloaded / total) * 100;
+      progressBar.value = progress;
+      status.innerText = `Baixado ${downloaded} de ${total} bytes (${progress.toFixed(2)}%)`;
+    });
+  </script>
+</body>
+</html>
