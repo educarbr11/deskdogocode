@@ -7,7 +7,7 @@ use tauri::Manager;
 
 fn main() {
     // Obtenha o nome do aplicativo e a versão
-    let app_name = "DoGoCode";
+    let app_name = "DogoCode";
     let app_version = env!("CARGO_PKG_VERSION"); // Obtém a versão do Cargo.toml
 
     // Crie o título com nome e versão
