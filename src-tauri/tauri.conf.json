@@ -38,7 +38,7 @@
         "endpoints": [
           "https://gist.githubusercontent.com/educarbr11/77efaa9d52545930f895004efcbc8e5a/raw/33a9ce215953286233f357a0c6b5dafa178be797/latest.json"
         ],
-        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDYxNzVFRUM2QTM5QTc2N0QKUldSOWRwcWp4dTUxWWRhVFEzUDFWL005RTVmSUo4Y2lMWGthZHJ4UGtrRlNlYmUyekxyRk40YWwK",
+        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEIwRjJDRjUxNTFFQzU1MjUKUldRbFZleFJVYy95c0g0VUZFNTZUeHFmSC9OZ0thbnhnZFBzS3luWWFYUXB3U2xmNWhZTld2QW4K",
         "windows": {
         "installMode": "basicUi"  
         }
