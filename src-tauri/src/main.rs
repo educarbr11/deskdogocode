@@ -6,6 +6,7 @@
 use tauri::Manager;
 
 fn main() {
+    deskdogocode_lib::run();
     // Obtenha o nome do aplicativo e a versão
     let app_name = "DogoCode";
     let app_version = env!("CARGO_PKG_VERSION"); // Obtém a versão do Cargo.toml
