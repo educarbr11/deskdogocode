@@ -6,7 +6,6 @@
 use tauri::Manager;
 
 fn main() {
-    deskdogocode_lib::run();
     // Obtenha o nome do aplicativo e a versão
     let app_name = "DogoCode";
     let app_version = env!("CARGO_PKG_VERSION"); // Obtém a versão do Cargo.toml
@@ -17,8 +16,12 @@ fn main() {
     tauri::Builder::default()
         .setup(move |app| {
             // Configura o título ao criar a janela principal
-            let main_window = app.get_window("main").unwrap();
-            main_window.set_title(&window_title).unwrap();
+            if let Some(main_window) = app.get_window("main") {
+                main_window.set_title(&window_title)?;
+            }
+
+            deskdogocode_lib::run();
+
             Ok(())
         })
         .run(tauri::generate_context!())
