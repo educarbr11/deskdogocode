@@ -40,7 +40,7 @@
         ],
         "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEIwRjJDRjUxNTFFQzU1MjUKUldRbFZleFJVYy95c0g0VUZFNTZUeHFmSC9OZ0thbnhnZFBzS3luWWFYUXB3U2xmNWhZTld2QW4K",
         "windows": {
-        "installMode": "basicUi"  
+          "installMode": "basicUi"  
         }
       }
     }
