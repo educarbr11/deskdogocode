@@ -34,7 +34,7 @@
   "plugins": {
       "updater": {
         "active": true,
-        "dialog": true,
+        "dialog": false,
         "endpoints": [
           "https://github.com/educarbr11/deskdogocode/releases/download/app-v{{current_version}}/latest.json"
         ],
