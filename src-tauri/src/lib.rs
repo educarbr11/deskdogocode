@@ -21,7 +21,7 @@ async fn update(app: tauri::AppHandle) -> tauri_plugin_updater::Result<()> {
     update
       .download_and_install(
         |chunk_length, content_length| {
-          downloaded += chunk_length;
+          downloaded += chunk_  length;
           println!("downloaded {downloaded} from {content_length:?}");
         },
         || {
