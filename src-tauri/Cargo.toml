@@ -1,6 +1,6 @@
 [package]
 name = "deskdogocode"
-version = "1.0.4"
+version = "1.0.5"
 description = "A Tauri App"
 authors = ["dogo"]
 edition = "2021"
