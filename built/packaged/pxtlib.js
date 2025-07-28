@@ -4332,7 +4332,7 @@ var pxt;
                     },
                     url: '/blocks/math',
                     operators: {
-                        'op': ["mínimo", "máximo"]
+                        'op': ["min", "max"]
                     },
                     category: 'math',
                     block: {
@@ -4468,7 +4468,7 @@ var pxt;
                     url: '/blocks/loops/repeat',
                     category: 'loops',
                     block: {
-                        CONTROLS_REPEAT_TITLE: pxt.Util.lf("repetir %1 vezes"),
+                        CONTROLS_REPEAT_TITLE: pxt.Util.lf("repete %1 vezes"),
                         CONTROLS_REPEAT_INPUT_DO: pxt.Util.lf("{id:repeat}faça")
                     }
                 },
@@ -4634,11 +4634,11 @@ var pxt;
                 },
                 'procedures_defnoreturn': {
                     name: pxt.Util.lf("definir a função"),
-                    tooltip: pxt.Util.lf("Cria uma função."),
+                    tooltip: pxt.Util.lf("Crie uma função."),
                     url: '/types/function/define',
                     category: 'functions',
                     block: {
-                        PROCEDURES_DEFNORETURN_TITLE: pxt.Util.lf(""),
+                        PROCEDURES_DEFNORETURN_TITLE: pxt.Util.lf("função"),
                         PROCEDURE_ALREADY_EXISTS: pxt.Util.lf("Já existe uma função chamada '%1'.")
                     }
                 },
@@ -21321,11 +21321,11 @@ var pxt;
             return "";
         }
         toolbox.getNamespaceIcon = getNamespaceIcon;
-        function advancedTitle() { return pxt.Util.lf("{id:category}Avançado"); }
+        function advancedTitle() { return pxt.Util.lf("{id:category}Advanced"); }
         toolbox.advancedTitle = advancedTitle;
-        function addPackageTitle() { return pxt.Util.lf("{id:category}Extensões"); }
+        function addPackageTitle() { return pxt.Util.lf("{id:category}Extensions"); }
         toolbox.addPackageTitle = addPackageTitle;
-        function recipesTitle() { return pxt.Util.lf("{id:category}Tutoriais"); }
+        function recipesTitle() { return pxt.Util.lf("{id:category}Tutorials"); }
         toolbox.recipesTitle = recipesTitle;
         /**
          * Convert blockly hue to rgb
